@@ -8,9 +8,27 @@ import { Component } from '@angular/core';
   // styles: ['']
 })
 export class AppComponent {
-  name = 'Bob';
+  name = 'damion wilson';
   imgURL = 'https://picsum.photos/seed/picsum/500/500';
 
+  images = [
+    'https://picsum.photos/seed/picsum/500/500',
+    'https://picsum.photos/seed/picsum/500/500',
+    'https://picsum.photos/seed/picsum/500/500',
+  ];
+
+  currentDate = new Date();
+  placeholder = 'This is some placeholder text';
+  cost = 2000;
+  temperature = 25.3;
+  pizza = {
+    toppings: ['cheese', 'pineapples'],
+    size: 'X-large',
+  };
+  blueClass = false;
+  fontSize = 16;
+
+  //
   getName() {
     return this.name;
   }
